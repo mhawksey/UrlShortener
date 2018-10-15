@@ -1,4 +1,4 @@
-# A Bitly shim for UrlShortner service in Google Apps Script
+# A Bitly shim for UrlShortener service in Google Apps Script
 
 In March 2018 Google announced it was [closing it’s Google URL Shortener](https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html) giving developers one year to migrate to their new Firebase Dynamic Links (FDL) service or other providers. The [`URLShortener` is also an Advanced Service](https://developers.google.com/apps-script/advanced/url-shortener) in Google Apps Script and so far I’ve seen no news that a FDL service will be created in its place. Our organisation had a couple of projects that used the `URLShortener` Service, exclusively used to shorten long links (we were never used other features like analytics). As we also use the [Bitly](https://bitly.com/) service using our custom domain it made sense to migrate our projects to use this instead. 
 
