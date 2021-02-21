@@ -49,7 +49,7 @@ var Url = (function (ns) {
   }
 })(Url|| {});
 
-var Groups = (function (ns) {
+var Groups = (function (ns) { 
   return {
     list: function(){
       var path = '/groups';
